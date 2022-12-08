@@ -48,3 +48,26 @@ footer{
   color: #ccc;
 }
 
+.Card{
+  /* background-color: #ccc; */
+  width:100%;
+  padding:1rem .5rem;
+  width: 20rem;
+  border-radius: 1rem;
+  z-index: 100;
+}
+.Card .title{
+  background-color: aqua;
+}
+.Card .img{
+  z-index: 101;
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;
+  border-radius: 50%;
+  border: 1rem solid white;
+}
+.Card .footer{
+  background-color: aquamarine;
+}
